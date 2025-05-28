@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>RG_Graph</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Graph" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Graph.Beta" Version="5.0.0-preview" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="2.8.0" />
+    <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="2.8.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+</Project>
